@@ -1,0 +1,22 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ ],
+  "css_assets" : [ ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "EMAIL" ],
+  "js_assets" : [ ],
+  "label" : "Animated Snow Flakes in Email",
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "smart_type" : "NOT_SMART",
+  "tags" : [ ],
+  "portal_id" : ,
+  "id" : ,
+  "module_id" : ,
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,64 @@
+
+<style>
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    body{background:#000;}
+ .snowcontainer{
+  position:relative;
+  width:100%;
+  overflow:visible;
+ }
+ .snowimage{
+  /* size of image */
+  height:18px;
+  width:18px;
+  /* absolute - relative to the container div */	 
+  position:absolute;
+  /* Where animation starts */	 
+  top:-20px;
+  /* image link */	 
+  background-image:url('https://arcdn.net/ActionRocket/css-snow/images/snowflake_1.png');
+ }
+	.snow{
+		border-radius: 9px;
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		top: -20px;
+		background-color: #ffffff;
+	}	
+ .snow1{
+  animation: snow1 5s linear 0s infinite; 
+ }
+ /* animation: Name of animation / length of animation / timing function (linear= same speed from beginning to end) / delay (time between animation end and start) / number of times */
+ 
+.snow2{
+  animation: snow2 6s linear 1s infinite; 
+ }
+ .snow3{
+  animation: snow3 7s linear 2s infinite; 
+ }
+ @keyframes snow1
+ {
+  0% { top:0%;left:50%; }        
+  100% { top:100%;left:65%; }
+ }
+ @keyframes snow2
+ {
+  0% { top:0%;left:30%; }        
+  100% { top:100%;left:25%; }
+ }
+ @keyframes snow3
+ {
+  0% { top:0%;left:70%; }        
+  100% { top:100%;left:60%; }
+ }
+}
+</style>	
+
+<div class="snowcontainer" style="height: 500px;">
+  <div class="snowimage snow1"></div>
+  <div class="snow snow2"></div>
+  <div class="snow snow3"></div>
+	
+</div>
